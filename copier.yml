@@ -1,0 +1,19 @@
+# User-provided settings
+code:
+  type: str
+  help: What is the language code?
+
+label:
+  type: str
+  help: What is the name of the language?
+
+repository_url:
+  type: str
+  help: What is the repository URL for this μEdition?
+
+# Copier settings
+_exclude:
+  - copier.yml
+  - .git
+  - README.md
+  - LICENSE
